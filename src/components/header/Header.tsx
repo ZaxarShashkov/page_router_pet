@@ -21,11 +21,11 @@ const Header: FC = (): JSX.Element => {
 				Home
 			</Link>
 			<Link
-				href='/about'
+				href='/posts'
 				className={cn(styles.about, {
-					[styles.about_active]: pathname === '/about',
+					[styles.about_active]: pathname === '/posts',
 				})}>
-				About
+				Posts
 			</Link>
 		</header>
 	);

@@ -11,7 +11,7 @@ type Props = {};
 const Page404 = (props: Props): JSX.Element => {
 	return (
 		<>
-			<Meta title='Page not found' />
+			<Meta title='Page not found' description='Page'/>
 			<div className={styles.page__404}>
 				<Image src={gif} alt={'404'}></Image>
 				<p className={styles.page__404_text}>Page not found</p>
