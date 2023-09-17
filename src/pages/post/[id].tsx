@@ -10,6 +10,7 @@ type Props = {};
 
 const PostPage: FC<IPostDataSingle> = ({ post }): JSX.Element => {
 	const { asPath, pathname, query } = useRouter();
+	console.log(query.id, 'asd');
 
 	return <PostItem post={post} />;
 };
